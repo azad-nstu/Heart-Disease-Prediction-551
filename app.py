@@ -33,7 +33,7 @@ by **Abul Kalam Azad.**
 This app predicts the possibility of heart attck by analyzing different habitual and physical condition using Machine Learning model.
 """)
 
-#read in wine image and render with streamlit
+#read in heart attack image and render with streamlit
 image = Image.open('heart_attack.jpg')
 st.image(image, caption='A heart disease scenario',use_column_width=True)
 
